@@ -316,6 +316,8 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
@@ -1337,9 +1339,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  /* Edited by WJ */
+  .avatar-box { border-radius: 100px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; border-radius: 100px; }
+  /* Endof Edit */
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1803,7 +1807,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1300px;
     margin-inline: auto;
     display: flex;
     justify-content: center;

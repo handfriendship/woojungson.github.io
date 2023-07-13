@@ -803,6 +803,11 @@ main {
   line-height: 1.6;
 }
 
+/* Edited by WJ */
+/* .timeline-list .badge-red {font-style: oblique; color:white; background-color: rgb(241, 90, 90); border-radius: 10px; display: inline;} */
+.timeline-list .badge-red {font-style: oblique;}
+/* Endof Edit */
+
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;

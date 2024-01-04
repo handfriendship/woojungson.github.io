@@ -1251,6 +1251,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     max-height: 150px;
   }
+
+  .info-content .title {
+    width: auto;
+  }
 }
 
 

@@ -1240,6 +1240,20 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+
+@media (min-width: 320px) {
+  /* Edited by WJ */
+  .avatar-box { border-radius: 100px; }
+
+  .avatar-box img { width: 120px; border-radius: 100px; }
+  /* Endof Edit */
+
+  .sidebar {
+    max-height: 150px;
+  }
+}
+
+
 @media (min-width: 450px) {
 
   /**
@@ -1247,9 +1261,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
-
-
+  
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1344,11 +1356,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  /* Edited by WJ */
-  .avatar-box { border-radius: 100px; }
-
-  .avatar-box img { width: 120px; border-radius: 100px; }
-  /* Endof Edit */
+  
 
   .info-content .name { margin-bottom: 15px; }
 
